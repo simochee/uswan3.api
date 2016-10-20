@@ -1,0 +1,29 @@
+{
+  "name": "uswan3.api",
+  "version": "1.0.0",
+  "description": "uswan3.api",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simochee/uswan3.api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simochee/uswan3.api/issues"
+  },
+  "homepage": "https://github.com/simochee/uswan3.api#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "serve-favicon": "^2.3.0",
+    "sqlite3": "^3.1.6"
+  }
+}
