@@ -41,6 +41,7 @@ module.exports = {
 				status: null,
 				items: []
 			}
+			db.each(`SELECT * FROM menu WHERE `)
 		});
 	},
 	update: (req, res) => {

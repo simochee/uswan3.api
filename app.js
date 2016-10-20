@@ -16,7 +16,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // 404
 app.use((req, res, next) => {
 	res.status(404);
-	res.send('Error! This url\'s undefined');
+	res.send({
+		status: 'error'
+	});
 });
 
 // from Services
